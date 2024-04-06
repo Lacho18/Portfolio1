@@ -1,0 +1,5 @@
+.schoolDiv {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, red, blue);
+}
