@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px) {
+    .mainCertificatesDiv {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .componentDiv {
+        width: 100%;
+        padding-top: 50px;
+        border-bottom: 4px solid black;
+    }
+
+    .componentDiv > div {
+        width: 100%;
+        display: inline-block;
+        border: none;
+        border-bottom: 3px solid black;
+        padding-bottom: 4px;
+    }
+
+    .componentDiv > div > div {
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-55%);
+    }
+
+    .certificatesImageDiv > img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .textCertificatesDiv {
+        font-size: 1em;
+    }
+}
