@@ -3,3 +3,69 @@
     border-style: solid;
     border-image: linear-gradient(to right, red, blue);
 }
+
+.linkAboutMeHeader {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 767px) {
+    .aboutMeMainDiv {
+        width: 100%;
+    }
+
+    .headerAboutDiv {
+        display: inline-block;
+    }
+
+    .headerAboutDiv > *{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+
+    .headerAboutDiv > div > p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .headerAboutDiv > img {
+        padding: 0;
+        margin: 0;
+        margin-top: 18px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .paragraphAbout {
+        font-size: 0.75em;
+    }
+
+    .paragraphAbout > ul {
+        padding-left: 30px;
+    }
+
+    .schoolsAbout {
+        display: inline-block;
+        border-bottom: 3px solid black;
+    }
+
+    .schoolsAbout > div {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .linkAboutMeHeader {
+        font-size: 1em;
+        padding: 3px;
+        margin-top: 18px;
+        text-align: center;
+    }
+}
