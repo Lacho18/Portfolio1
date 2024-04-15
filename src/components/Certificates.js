@@ -3,22 +3,9 @@ import SingleCertificate from "./SingleCertificate";
 import "../styles/certificates.css";
 import { useState, useRef, useEffect } from "react";
 
-export default function Certificates() {
-    const [isMobile, setIsMobile] = useState(false);
+export default function Certificates(props) {
     const [selectedImage, setSelectedImage] = useState(false);
     const currentImage = useRef(0);
-
-    useEffect(() => {
-        function checkWindowSize() {
-            setIsMobile(window.innerWidth <= 768);
-        }
-
-        checkWindowSize();
-        window.addEventListener('resize', checkWindowSize);
-        return () => {
-            window.removeEventListener('resize', checkWindowSize);
-        };
-    }, [])
 
     function onImageSelection(imageId) {
         currentImage.current = imageId;
@@ -30,7 +17,7 @@ export default function Certificates() {
             {!selectedImage ? <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto componentDiv">
                 {
                     certificatesData.map(indexValue => {
-                        return <SingleCertificate {...indexValue} onImageClicked={onImageSelection} isMobile={isMobile} />
+                        return <SingleCertificate {...indexValue} onImageClicked={onImageSelection} isMobile={props.isMobile} />
                     })
                 }
             </div>
