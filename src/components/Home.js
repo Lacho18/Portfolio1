@@ -1,4 +1,4 @@
-import CVImage from "../images/CVImage.jpg";
+import CVImage from "../images/CVImage1.jpg";
 import "../styles/homePage.css";
 
 export default function Home() {

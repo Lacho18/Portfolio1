@@ -4,7 +4,9 @@ export default function SingleCertificate(props) {
         props.onImageClicked(currentImage);
     }
 
+    //Checks if the component is loaded on a phone
     if (!props.isMobile) {
+        //Checks if the current displaying certificate is even or odd number. If it even the image will be on the right side
         if (props.id % 2 === 0) {
             return (
                 <div className="w-full h-auto flex flex-row m-5 inline-block">

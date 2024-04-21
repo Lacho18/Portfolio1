@@ -1,4 +1,4 @@
-import CVImage from "../images/CVImage.jpg";
+import CVImage from "../images/CVImage1.jpg";
 import { Link, animateScroll as scroll } from 'react-scroll';
 import "../styles/about.css";
 
