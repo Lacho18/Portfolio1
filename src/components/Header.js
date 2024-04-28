@@ -21,15 +21,15 @@ export default function Header() {
                 {location.pathname !== "/projects" ? <Link to="/projects">Projects</Link> : <Link to="/">Home page</Link>}
             </div>
             <div className="flex-2 flex justify-end items-center h-full text-gray-100 contactsDiv">
-                <Link className="contactLink w-1/3 " to="https://github.com/Lacho18">
+                <a className="contactLink w-1/3 " href="https://github.com/Lacho18" target="_blank" rel="noopener noreferrer">
                     <img className="w-full h-full" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
-                </Link>
-                <Link className="contactLink w-1/3" to="https://www.facebook.com">
+                </a>
+                <a className="contactLink w-1/3" href={process.env.REACT_APP_FACEBOOK_ACCOUNT} target="_blank" rel="noopener noreferrer">
                     <img className="w-full h-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" alt="facebook" />
-                </Link>
-                <Link className="contactLink w-1/3" to="https://www.instagram.com">
+                </a>
+                <a className="contactLink w-1/3" href={process.env.REACT_APP_INSTAGRAM_ACCOUNT} target="_blank" rel="noopener noreferrer">
                     <img className="w-full h-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="instagram" />
-                </Link>
+                </a>
             </div>
         </div>
     );

@@ -87,15 +87,18 @@ export default function About() {
                             <li>MongoDB</li>
                         </ul>
                         These are mostly every technologies i have learned in the university. However from them i am mostly interest in and have most knowledge in
-                        <span> Javascript, ReactJS, Node.js, MongoDB, C++</span>. I love to study and i am always ready to learn a new technology, framework or library.
+                        <span className="font-bold"> Javascript, ReactJS, Node.js, MongoDB, C++</span>. I love to study and i am always ready to learn a new technology, framework or library.
                     </p>
                 </div>
                 <div id={sections[2].sectionID} className="ml-2 mr-2 p-3">
                     <p className="text-3xl font-bold underline pt-7 title">More about me</p>
-                    <p className="pt-3 paragraphAbout">I love programming. Ever since i started learning computer science, I began to understand how the computers work and mostly the software running on them.
-                        Since then I am really interested on the software running on the machines and how it works. I love learning new things and am always ready for challenges.
-                    </p>
-                    <p className="paragraphAbout">I have and different hobbies. I love climbing mountains, traveling and exploring new destinations and listening music.</p>
+                    <p className="paragraphAbout">On my secondary education i learned mostly english and a little bit of german and spanish. In middle school i have participated
+                        in a lot of math competitions. From the university i have participated in two math competition. The first is named SEEMOUS. It is
+                        a regional mathematical competition for university-level students from Southeastern European countries. The second one is NSOM. NSOM is a
+                        competition for university students in a country.</p>
+                    <p className="paragraphAbout">Since i started learning computer science, I have learned a lot of software technologies and how the computer
+                        hardware works. I love what i am learning and am always ready to learn new technologies.</p>
+                    <p className="paragraphAbout">I have and different hobbies. I love climbing mountains, traveling and exploring new destinations around the world.</p>
                 </div>
             </div>
         </div>

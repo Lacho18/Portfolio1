@@ -10,7 +10,7 @@ export default function SingleCertificate(props) {
         if (props.id % 2 === 0) {
             return (
                 <div className="w-full h-auto flex flex-row m-5 inline-block">
-                    <div className="w-1/2 flex flex-1 justify-center items-center p-3 certificatesImageDiv"
+                    <div className="w-1/2 flex flex-1 justify-center items-center p-3 certificatesImageDiv ml-[-20px]"
                         style={{
                             height: "40rem", borderTop: "3px solid #E47F73", borderRight: "3px solid #E47F73",
                             borderTopRightRadius: "40px"
@@ -35,7 +35,7 @@ export default function SingleCertificate(props) {
                             <p>{props.description}</p>
                         </div>
                     </div>
-                    <div className="w-1/2 flex flex-1 justify-center items-center p-3 overflow-hidden certificatesImageDiv"
+                    <div className="w-1/2 flex flex-1 justify-center items-center p-3 overflow-hidden certificatesImageDiv mr-5"
                         style={{
                             height: "40rem", borderTop: "3px solid #E47F73",
                             borderLeft: "3px solid #E47F73",
