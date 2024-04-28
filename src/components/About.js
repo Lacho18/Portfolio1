@@ -75,16 +75,28 @@ export default function About() {
                     <p className="text-3xl font-bold underline pt-7 title">Technologies</p>
                     <p className="pt-3 paragraphAbout">I am currently a student in technical university of Gabrovo. Here i have studied a lot of technologies connected with different styles of programming.
                         I have learned :
+                        <p className="font-bold mt-3">Programming languages :</p>
                         <ul className="pl-14 mt-1 mb-3 list-disc">
+                            <li>Javascript</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
                             <li>C++</li>
                             <li>C#</li>
                             <li>Java</li>
                             <li>Php</li>
-                            <li>MySQL</li>
-                            <li>Javascript</li>
-                            <li>React.js</li>
-                            <li>Node.js</li>
+                        </ul>
+                        <p className="font-bold">Databases</p>
+                        <ul className="pl-14 mt-1 mb-3 list-disc">
                             <li>MongoDB</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <p className="font-bold">Frameworks and libraries</p>
+                        <ul className="pl-14 mt-1 mb-3 list-disc">
+                            <li>React JS</li>
+                            <li>React router</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Framework 7</li>
                         </ul>
                         These are mostly every technologies i have learned in the university. However from them i am mostly interest in and have most knowledge in
                         <span className="font-bold"> Javascript, ReactJS, Node.js, MongoDB, C++</span>. I love to study and i am always ready to learn a new technology, framework or library.
@@ -92,7 +104,7 @@ export default function About() {
                 </div>
                 <div id={sections[2].sectionID} className="ml-2 mr-2 p-3">
                     <p className="text-3xl font-bold underline pt-7 title">More about me</p>
-                    <p className="paragraphAbout">On my secondary education i learned mostly english and a little bit of german and spanish. In middle school i have participated
+                    <p className="mt-3 paragraphAbout">On my secondary education i learned mostly english and a little bit of german and spanish. In middle school i have participated
                         in a lot of math competitions. From the university i have participated in two math competition. The first is named SEEMOUS. It is
                         a regional mathematical competition for university-level students from Southeastern European countries. The second one is NSOM. NSOM is a
                         competition for university students in a country.</p>

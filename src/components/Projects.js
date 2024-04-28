@@ -45,7 +45,7 @@ export default function Projects(props) {
                                 </div>
                                 {seeImages &&
                                     <div className="p-2" style={{ width: "85%", position: "relative", left: "50%", transform: "translateX(-60%)" }}>
-                                        <ImageSlider images={indexValue.images} />
+                                        <ImageSlider images={indexValue.images} isMobile={props.isMobile} />
                                     </div>
                                 }
                                 <button onClick={() => { setSeeImages(prev => !prev) }}>{seeImages ? "Hide" : "See"} images</button>
