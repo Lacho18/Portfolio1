@@ -11,11 +11,7 @@ export default function About() {
         {
             name: "Technologies",
             sectionID: "technologiesSection"
-        },
-        {
-            name: "More about me",
-            sectionID: "moreAboutMeSection"
-        },
+        }
     ];
 
     return (
@@ -38,15 +34,24 @@ export default function About() {
                     <div className="w-1/2 top-1/3 relative">
                         <p className="text-3xl font-bold">About me</p>
                         <p className="text-xl">Lachezar Genov</p>
+                        <p className="text-small italic">Master of software engineering</p>
                     </div>
                 </div>
-                <div className="flex inline-block ml-2 mr-2 p-3">
+                {/*flex inline-block */}
+                <div className="ml-2 mr-2 p-3">
                     <p className="font-sans paragraphAbout">
-                        Hello, I am Lachezar Genov. I am from Bulgaria. I have completed a language class with advanced study of English and German. After graduation i started
+                        {/*Hello, I am Lachezar Genov. I am from Bulgaria. I have completed a language class with advanced study of English and German. After graduation i started
                         learning computer science. I have completed a lot of courses in the Technical university of Gabrovo like Object oriented programming with Java and C#,
                         Web development with Javascript, frontend development with React JS, backend development with NodeJS, Java and more. I have completed the SoftUni programming
-                        basic course with C#. I am always ready to learn new things.
+                    basic course with C#. I am always ready to learn new things.*/}
+                        Lachezar, was born in one of the most attractive cities on the Black sea’s coastline, East Bulgaria. He graduated the high school in 2021 with 1st class in language classes degree which includes advanced study of English,
+                        Germany, and Spanish.
                     </p>
+                    <p className="font-sans paragraphAbout">Computer science and software technology have always been a passion for Lachezar.</p>
+                    <p className="font-sans paragraphAbout">Therefore, after his graduation he considered education as a bachelor and master in the Technical University of Gabrovo, Bulgaria were he is currently completing his last year of education.
+                        To support his study and cover the taxes, during his education he worked as an assistant in a company for design and printing services for business customising purposes and advertisements.
+                        Through the years he participated in several mathematical competitions with some international recognitions and acknowledgements from the relevant institutions.
+                        His future interest and ambitions are to work and develop in the software technology industry and to apply all knowledge which he gained so far.</p>
                 </div>
                 <div id={sections[0].sectionID} className="ml-2 mr-2 p-3">
                     <p className="text-3xl font-bold underline pt-7 title">Schools</p>
@@ -101,16 +106,6 @@ export default function About() {
                         These are mostly every technologies i have learned in the university. However from them i am mostly interest in and have most knowledge in
                         <span className="font-bold"> Javascript, ReactJS, Node.js, MongoDB, C++</span>. I love to study and i am always ready to learn a new technology, framework or library.
                     </p>
-                </div>
-                <div id={sections[2].sectionID} className="ml-2 mr-2 p-3">
-                    <p className="text-3xl font-bold underline pt-7 title">More about me</p>
-                    <p className="mt-3 paragraphAbout">On my secondary education i learned mostly english and a little bit of german and spanish. In middle school i have participated
-                        in a lot of math competitions. From the university i have participated in two math competition. The first is named SEEMOUS. It is
-                        a regional mathematical competition for university-level students from Southeastern European countries. The second one is NSOM. NSOM is a
-                        competition for university students in a country.</p>
-                    <p className="paragraphAbout">Since i started learning computer science, I have learned a lot of software technologies and how the computer
-                        hardware works. I love what i am learning and am always ready to learn new technologies.</p>
-                    <p className="paragraphAbout">I have and different hobbies. I love climbing mountains, traveling and exploring new destinations around the world.</p>
                 </div>
             </div>
         </div>
