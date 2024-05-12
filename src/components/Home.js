@@ -20,9 +20,9 @@ export default function Home() {
                     </div>
                     <div class="bg-gray-900 p-4 grid-cols-4 flex h-2/6 technologiesDiv">
                         <img className="h-full w-1/5 ml-4" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" />
-                        <img className="h-full w-1/5 ml-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="NodeJS" />
+                        <img className="h-full w-1/5 ml-4" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="NodeJS" />
                         <img className="h-full w-1/5 ml-4" src="https://seeklogo.com/images/M/mongodb-icon-logo-F5A5E0981A-seeklogo.com.png" alt="MongoDB" />
-                        <img className="h-full w-1/5 ml-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="C++" />
+                        <img className="h-full w-1/5 ml-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" />
                     </div>
                 </div>
             </div>

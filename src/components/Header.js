@@ -20,15 +20,12 @@ export default function Header() {
                 {location.pathname !== "/certificates" ? <Link to="/certificates">Certificates</Link> : <Link to="/">Home page</Link>}
                 {location.pathname !== "/projects" ? <Link to="/projects">Projects</Link> : <Link to="/">Home page</Link>}
             </div>
-            <div className="flex-2 flex justify-end items-center h-full text-gray-100 contactsDiv">
-                <a className="contactLink w-1/3 " href="https://github.com/Lacho18" target="_blank" rel="noopener noreferrer">
-                    <img className="w-full h-full" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
+            <div className="flex-2 flex justify-center items-center h-full text-gray-100 contactsDiv">
+                <a className="contactLink w-auto " href="https://github.com/Lacho18" target="_blank" rel="noopener noreferrer">
+                    <img className="w-28 h-full" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
                 </a>
-                <a className="contactLink w-1/3" href={process.env.REACT_APP_FACEBOOK_ACCOUNT} target="_blank" rel="noopener noreferrer">
-                    <img className="w-full h-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" alt="facebook" />
-                </a>
-                <a className="contactLink w-1/3" href={process.env.REACT_APP_INSTAGRAM_ACCOUNT} target="_blank" rel="noopener noreferrer">
-                    <img className="w-full h-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="instagram" />
+                <a className="contactLink w-auto" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                    <img className="w-28 h-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin" />
                 </a>
             </div>
         </div>
