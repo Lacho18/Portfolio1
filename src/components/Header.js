@@ -24,7 +24,7 @@ export default function Header() {
                 <a className="contactLink w-auto " href="https://github.com/Lacho18" target="_blank" rel="noopener noreferrer">
                     <img className="w-28 h-full" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
                 </a>
-                <a className="contactLink w-auto" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                <a className="contactLink w-auto" href="https://www.linkedin.com/in/lachezar-genov-964636309/" target="_blank" rel="noopener noreferrer">
                     <img className="w-28 h-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin" />
                 </a>
             </div>
