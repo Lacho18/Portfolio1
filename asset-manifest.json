@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Portfolio1/static/css/main.0fe0e8fe.css",
+    "main.js": "/Portfolio1/static/js/main.c25f3262.js",
+    "static/js/453.68693753.chunk.js": "/Portfolio1/static/js/453.68693753.chunk.js",
+    "static/media/TechShop1.png": "/Portfolio1/static/media/TechShop1.a7fccace2c1fb37750de.png",
+    "static/media/TechShop2.png": "/Portfolio1/static/media/TechShop2.fc6261387318f59a7d8d.png",
+    "static/media/TechShop3.png": "/Portfolio1/static/media/TechShop3.218ba9ecedef9dffe055.png",
+    "static/media/TechShop4.png": "/Portfolio1/static/media/TechShop4.6cbdeb037a531b87425d.png",
+    "static/media/NSOM.png": "/Portfolio1/static/media/NSOM.fa86101b1c5f19efa908.png",
+    "static/media/SEEMOUS.png": "/Portfolio1/static/media/SEEMOUS.14cc77bae8c31c432b39.png",
+    "static/media/ChatApp2.png": "/Portfolio1/static/media/ChatApp2.0e9cd8aa1b9cee08675f.png",
+    "static/media/ChatApp3.png": "/Portfolio1/static/media/ChatApp3.3d5a6e652b021028a7ee.png",
+    "static/media/ChatApp1.png": "/Portfolio1/static/media/ChatApp1.fd90439f5f43080f7631.png",
+    "static/media/SoftUniProgramingBasic.jpeg": "/Portfolio1/static/media/SoftUniProgramingBasic.e6af2f66d0e4e6e6dc6b.jpeg",
+    "static/media/TechShop5.png": "/Portfolio1/static/media/TechShop5.ae9278c71715b99cbf29.png",
+    "static/media/TechShopAPI4.png": "/Portfolio1/static/media/TechShopAPI4.83347988a482adf9c34a.png",
+    "static/media/ObstacleGameImage3.png": "/Portfolio1/static/media/ObstacleGameImage3.3464c1b0ffb7d7f6a6ca.png",
+    "static/media/TechShopAPI1.png": "/Portfolio1/static/media/TechShopAPI1.e9b0bde649a7534af359.png",
+    "static/media/ChatAppAPI1.png": "/Portfolio1/static/media/ChatAppAPI1.d26137d3a156d9ab11a0.png",
+    "static/media/ObstacleGameImage2.png": "/Portfolio1/static/media/ObstacleGameImage2.d2e134ec8dcff5603fe7.png",
+    "static/media/ObstacleGameImage1.png": "/Portfolio1/static/media/ObstacleGameImage1.e4577ba1740c84926cb9.png",
+    "static/media/ChatAppAPI2.png": "/Portfolio1/static/media/ChatAppAPI2.300ffa535806dd0c0b22.png",
+    "static/media/ChatApp0.png": "/Portfolio1/static/media/ChatApp0.61705701cc9eedf24b8b.png",
+    "static/media/TechShopAPI3.png": "/Portfolio1/static/media/TechShopAPI3.c23c2aeca51d99d4e0c2.png",
+    "static/media/CVImage1.jpg": "/Portfolio1/static/media/CVImage1.9f131f4d525b0ea9af48.jpg",
+    "index.html": "/Portfolio1/index.html",
+    "main.0fe0e8fe.css.map": "/Portfolio1/static/css/main.0fe0e8fe.css.map",
+    "main.c25f3262.js.map": "/Portfolio1/static/js/main.c25f3262.js.map",
+    "453.68693753.chunk.js.map": "/Portfolio1/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fe0e8fe.css",
+    "static/js/main.c25f3262.js"
+  ]
+}
