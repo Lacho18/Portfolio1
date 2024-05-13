@@ -29,6 +29,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/certificates' element={<Certificates isMobile={isMobile} />} />
         <Route path='/projects' element={<Projects isMobile={isMobile} />} />
+        <Route path='/*' element={<Home />} />
       </Routes>
     </div>
   );
