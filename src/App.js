@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header isMobile={isMobile} />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

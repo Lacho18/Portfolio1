@@ -20,10 +20,10 @@ export default function About() {
                         Germany, and Spanish.
                     </p>
                     <p className="font-sans paragraphAbout">Computer science and software technology have always been a passion for Lachezar.</p>
-                    <p className="font-sans paragraphAbout">Therefore, after his graduation he considered education as a bachelor and master in the Technical University of Gabrovo, Bulgaria where he is currently completing his last year of education.
-                        To support his study and cover the taxes, during his education he worked as an assistant in a company for design and printing services for business customising purposes and advertisements.
-                        Through the years he participated in several mathematical competitions with some international recognitions and acknowledgements from the relevant institutions.
-                        His future interest and ambitions are to work and develop in the software technology industry and to apply all knowledge which he gained so far.</p>
+                    <p className="font-sans paragraphAbout">Therefore, after his graduation he considered education as a bachelor and master in the Technical University of Gabrovo, Bulgaria where he is currently completing his last year of education.</p>
+                    <p className="font-sans paragraphAbout">To support his study and cover the taxes, during his education he worked as an assistant in a company for design and printing services for business customising purposes and advertisements.</p>
+                    <p className="font-sans paragraphAbout">Through the years he participated in several mathematical competitions with some international recognitions and acknowledgements from the relevant institutions.</p>
+                    <p className="font-sans paragraphAbout">His future interest and ambitions are to work and develop in the software technology industry and to apply all knowledge which he gained so far.</p>
                 </div>
             </div>
         </div>

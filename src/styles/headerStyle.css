@@ -1,6 +1,6 @@
 .contactLink {
     width: 30%;
-    height: 100%;
+    height: auto;
     margin: 1%;
     padding: 2%;
     display: inline-flex;
@@ -51,9 +51,10 @@
 
     .navButtons > * {
         width: 40.33%;
-        font-size: 0.65em;
-        padding: 0;
+        font-size: 0.70em;
+        padding: 5px;
         border-radius: 7px;
+        color: white;
     }
 
     .titleName {

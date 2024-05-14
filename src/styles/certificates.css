@@ -1,8 +1,10 @@
 @media screen and (max-width: 767px) {
     .mainCertificatesDiv {
-        width: 100%;
+        width: 100%; 
         height: auto;
         overflow: hidden;
+        margin: 0;
+        padding: 0;
     }
 
     .componentDiv {
@@ -24,6 +26,11 @@
         position: relative;
         left: 50%;
         transform: translateX(-55%);
+    }
+
+    .certificatesImageDiv {
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .certificatesImageDiv > img {

@@ -9,7 +9,7 @@ export default function Projects(props) {
 
     if (!props.isMobile) {
         return (
-            <div className="w-full h-auto bg-gray-700 mainProjectsDiv">
+            <div className="w-full h-auto bg-gray-700 absolute mainProjectsDiv">
                 <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto mainProjectsDiv">
                     {projectsData.map(indexValue => {
                         return (
@@ -37,10 +37,10 @@ export default function Projects(props) {
                 <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto mainProjectsDiv">
                     {projectsData.map(indexValue => {
                         return (
-                            <div key={indexValue.id} className="m-1 pb-3 overflow-hidden text-center projectComponent" style={{ borderBottom: "3px solid black", borderRadius: "10px" }}>
+                            <div key={indexValue.id} className="pb-3 overflow-hidden text-center projectComponent" style={{ borderBottom: "3px solid black", borderRadius: "10px" }}>
                                 <div className="ml-10 p-2 font-serif">
                                     <p className="text-3xl font-bold text-center underline mb-1">{indexValue.name}</p>
-                                    <p className="text-sm pb-6 pl-2">{indexValue.description}</p>
+                                    <p className="text-sm pb-6 pl-2 pt-5">{indexValue.description}</p>
                                     <p className="font-bold">Link to github repository : </p>
                                     <a className="italic text-blue-700 underline" href={indexValue.gitHubLink}>Project repository</a>
                                 </div>
@@ -49,7 +49,11 @@ export default function Projects(props) {
                                         <ImageSlider images={indexValue.images} isMobile={props.isMobile} />
                                     </div>
                                 }
-                                <button onClick={() => { setSeeImages(prev => !prev); setSeeingImage(indexValue.id) }}>{seeImages && seeingImage === indexValue.id ? "Hide" : "See"} images</button>
+                                <button
+                                    onClick={() => { setSeeImages(prev => !prev); setSeeingImage(indexValue.id) }}
+                                    style={{ color: "red" }}>
+                                    {seeImages && seeingImage === indexValue.id ? "Hide" : "See"} images
+                                </button>
                             </div>
 
                         );
