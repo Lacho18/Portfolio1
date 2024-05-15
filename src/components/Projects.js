@@ -9,8 +9,8 @@ export default function Projects(props) {
 
     if (!props.isMobile) {
         return (
-            <div className="w-full h-auto bg-gray-700 absolute mainProjectsDiv">
-                <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto mainProjectsDiv">
+            <div className="w-full h-auto bg-gray-700 absolute mainProjectsDiv" style={{ backgroundColor: "#20b2aa" }}>
+                <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto mainProjectsDiv" style={{ backgroundColor: "#62c9c3" }}>
                     {projectsData.map(indexValue => {
                         return (
                             <div className="m-5 pb-3 flex flex-row projectComponent" style={{ borderBottom: "3px solid black", borderRadius: "10px" }}>
@@ -33,8 +33,8 @@ export default function Projects(props) {
     }
     else {
         return (
-            <div className="w-full h-auto bg-gray-700 mainProjectsDiv">
-                <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto mainProjectsDiv">
+            <div className="w-full h-auto bg-gray-700 mainProjectsDiv" style={{ backgroundColor: "#20b2aa" }}>
+                <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto mainProjectsDiv" style={{ backgroundColor: "#62c9c3" }}>
                     {projectsData.map(indexValue => {
                         return (
                             <div key={indexValue.id} className="pb-3 overflow-hidden text-center projectComponent" style={{ borderBottom: "3px solid black", borderRadius: "10px" }}>

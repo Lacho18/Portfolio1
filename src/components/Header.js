@@ -1,14 +1,15 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/headerStyle.css";
 
-export default function Header({ isMobile }) {
+export default function Header({ isMobile, themeColor }) {
     const location = useLocation();
     const navigate = useNavigate();
-    console.log(location.pathname);
+    console.log(themeColor);
+    let colorBackground = "#205D9A";
 
     if (!isMobile) {
         return (
-            <div className="fixed top-0 left-0 w-full bg-gray-800 flex flex-wrap h-16 z-10 mainHeaderDiv">
+            <div className="fixed top-0 left-0 w-full bg-green-800 flex flex-wrap h-16 z-10 mainHeaderDiv" style={{ backgroundColor: "#167c76" }}>
                 <div className="flex-1 flex justify-center items-center text-lg font-bold text-gray-100 titleName">
                     {location.pathname !== "/" && <button onClick={() => { navigate('/'); }} className="w-9 h-9 mr-8 relative left-0">
                         <img className="w-full h-full" src="https://www.svgrepo.com/show/101168/go-back-arrow.svg" alt="back" />
@@ -34,7 +35,7 @@ export default function Header({ isMobile }) {
     }
     else {
         return (
-            <div className="flex w-full bg-gray-800 fixed top-0 left-0 z-10 h-16">
+            <div className="flex w-full bg-gray-800 fixed top-0 left-0 z-10 h-16" style={{ backgroundColor: "#167c76" }}>
                 <div className="w-3/5 h-full">
                     <div className="h-1/2 w-full flex">
                         {location.pathname !== "/" && (

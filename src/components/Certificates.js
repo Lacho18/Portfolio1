@@ -13,8 +13,8 @@ export default function Certificates(props) {
     }
 
     return (
-        <div className="w-full bg-gray-700 absolute mainCertificatesDiv">
-            {!selectedImage ? <div className="pt-20 w-3/4 bg-gray-400 text-center align-center mx-auto componentDiv">
+        <div className="w-full bg-gray-700 absolute mainCertificatesDiv" style={{ backgroundColor: "#20b2aa" }}>
+            {!selectedImage ? <div className="pt-20 w-3/4 bg-gray-400 text-center align-center mx-auto componentDiv" style={{ backgroundColor: "#62c9c3" }}>
                 {
                     certificatesData.map(indexValue => {
                         return <SingleCertificate {...indexValue} onImageClicked={onImageSelection} isMobile={props.isMobile} />

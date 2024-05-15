@@ -22,7 +22,7 @@ export default function ImageSlider({ images, isMobile }) {
     if (biggerImage === 0) {
         return (
             <div className="flex items-center h-full image-slider">
-                <button className="h-3/4 text-3xl bg-gray-500 bg-opacity-50 font-bold" onClick={() => { changeImage(-1); }}>{"<"}</button>
+                <button className={`h-3/4 text-3xl bg-gray-500 bg-opacity-50 font-bold flex-grow`} onClick={() => { changeImage(-1); }}>{"<"}</button>
                 <div className="flex-grow relative overflow-hidden h-3/4" onClick={() => {
                     if (!isMobile) {
                         setBiggerImage(1);
@@ -30,7 +30,7 @@ export default function ImageSlider({ images, isMobile }) {
                 }}>
                     <img src={images[currentImage]} className=" inset-0 w-auto h-full h-max-full object-cover" />
                 </div>
-                <button className="h-3/4 text-3xl bg-gray-500 bg-opacity-50 font-bold" onClick={() => { changeImage(1); }}>{">"}</button>
+                <button className="h-3/4 text-3xl bg-gray-500 bg-opacity-50 font-bold flex-grow" onClick={() => { changeImage(1); }}>{">"}</button>
             </div >
         );
     }

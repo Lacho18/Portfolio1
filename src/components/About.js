@@ -4,8 +4,8 @@ import "../styles/about.css";
 
 export default function About() {
     return (
-        <div className="h-screen w-full bg-gray-700">
-            <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto scroll h-screen aboutMeMainDiv">
+        <div className="h-screen w-full bg-gray-700" style={{ backgroundColor: "#20b2aa" }}>
+            <div className="pt-20 w-3/4 bg-gray-400 align-center mx-auto scroll h-screen aboutMeMainDiv" style={{ backgroundColor: "#62c9c3" }}>
                 <div className="grid grid-cols-2 flex inline-block headerAboutDiv">
                     <img className="w-1/2 flex bg-red-100 m-5 rounded" src={CVImage} alt="CVImage" />
                     <div className="w-1/2 top-1/3 relative">
